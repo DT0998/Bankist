@@ -201,7 +201,7 @@ const startlogouttimer = function(){
               containerApp.style.opacity = 0;
             }
             // decrease 1s
-            time--;
+            --time;
           };
       
   // set time to 5 minutes
